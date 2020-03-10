@@ -7,6 +7,7 @@ class Mod extends React.Component {
       
     // }
     render() {
+        // get the listData from the parent
       let listData = this.props.list
       return (
         <div className='mod'>
@@ -27,6 +28,7 @@ class Mod extends React.Component {
         </div>
       )
     }
+    // remove or add, use the func from the parent
     operateEvent = (id) => {
       this.props.clickEvent(id)
     }
