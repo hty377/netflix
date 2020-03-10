@@ -1,6 +1,8 @@
 body {
   margin: 0;
-  padding: 0 20%;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
   box-sizing: border-box;
   background-color: #000000;
   color: #ffffff;
