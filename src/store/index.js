@@ -1,6 +1,7 @@
 
 import { createStore} from 'redux'
 
+//initialize the store
 const reducer = function ( state = {num: 0, listData:[], recomData:[] },action) {
   let list = state.listData
   let recom = state.recomData
@@ -25,6 +26,7 @@ const reducer = function ( state = {num: 0, listData:[], recomData:[] },action) 
 
   return Object.assign({}, state);
 }
+// create the store
 const store = createStore(reducer)
 
 export default store
